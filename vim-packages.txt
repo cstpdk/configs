@@ -1,4 +1,6 @@
+https://github.com/junegunn/fzf.vim.git
 https://github.com/prettier/vim-prettier.git
+https://github.com/qpkorr/vim-bufkill
 git@github.com:evanmiller/nginx-vim-syntax.git
 git@github.com:vim-pandoc/vim-pandoc.git
 https://github.com/leafgarland/typescript-vim.git
@@ -14,3 +16,4 @@ git@github.com:reasonml/vim-reason.git
 git@github.com:vim-syntastic/syntastic.git
 git@github.com:martinda/Jenkinsfile-vim-syntax.git
 git@github.com:derekwyatt/vim-scala.git
+https://github.com/tpope/vim-fugitive.git
