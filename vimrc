@@ -27,10 +27,10 @@ set nu
 " Persistent undo
 set undofile
 " set a directory to store the undo history
-set undodir=/tmp/.vim-undo
+set undodir=/home/csp/.vim/undo
 
-set foldmethod=syntax
 
+" Consuela
 set conceallevel=1
 map <leader>l :exec &conceallevel ? "set conceallevel=0" : "set conceallevel=1"<CR>
 
@@ -71,3 +71,12 @@ autocmd Filetype ocaml setlocal ts=4 sts=4 sw=4 et
 autocmd Filetype reason setlocal ts=2 sts=2 sw=2 et
 let g:vimreason_extra_args_expr_reason = '"--print-width 80"'
 autocmd FileType reason map <buffer> <C-M> :ReasonPrettyPrint<Cr>
+
+"FZF
+set rtp+=~/.fzf
+nmap ; :Buffers<CR>
+nmap <Leader>f :Files<CR>
+nmap <Leader>g :GFiles<CR>
+
+nmap <Leader>r :!tmux send-keys -t right Up Enter <CR><CR>
+nmap <Leader>d :!tmux send-keys -t bottom Up Enter <CR><CR>
